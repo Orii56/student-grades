@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+
+.bigbox {
+       width:100%;
+       display:flex;
+       background-color:white;
+}
+
+.Alumnbox{
+   width:65%;
+   display:flex;
+   flex-direction: column;
+}
+
+.Albox:hover{
+   margin:8px;
+   transition:0.2s;
+   cursor:pointer;
+   -webkit-box-shadow: 10px 10px 5px -7px rgba(80,74,255,0.2);
+-moz-box-shadow: 10px 10px 5px -7px rgba(80,74,255,0.2);
+box-shadow: 10px 10px 5px -7px rgba(80,74,255,0.2);
+
+}
+.Albox {
+   background-color:#efefef;
+   margin:10px;
+   height:25vh;
+   display:flex;
+   border-radius: 20px;
+   -webkit-box-shadow: 10px 10px 5px -10px rgba(80,74,255,0.13);
+-moz-box-shadow: 10px 10px 5px -10px rgba(80,74,255,0.13);
+box-shadow: 10px 10px 5px -10px rgba(80,74,255,0.13);
+   
+}
+.Alpic{
+   width: 20%;
+   height:100%;
+   display: flex;
+}
+
+.fotos{
+   width:85%;
+   margin:5%;
+   border-radius:100%;   
+}
+
+.Alnombre{
+   padding-top:20px;
+   margin:20px;
+   width:25%;
+}
+
+.Alcal{
+   margin:30px;
+   width: 55%;
+   display:flex;
+   flex-direction: column;
+   text-align: center;   
+}
+
+.Titulos, .Numeros{
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: row;
+}
+.tit1, .num1{ 
+   width:30%;
+
+}
+
+
+
+.resumen {
+   width:35%;
+   height: 100vh;
+   background-color: #edf4f8;
+   border-radius: 0%;
+   position: fixed;
+   top:0;
+   right:0;
+   flex-direction: column;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.Curso{
+   height: 15%;
+   text-align: center;
+   font-size:2em;
+   width:100%;
+   padding-top:10px;
+}
+
+.Aprobados, .Reprobados, .Media{
+   border-radius:20px;
+   height: 20%;
+   text-align: center;
+   align-items: center;
+   display:flex;
+   flex-direction:column;
+   align-content: center;
+   -webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.08);
+-moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.08);
+box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.08);
+}
+
+.AlAprobados, .AlReprobados, .AlMedia{
+   height: 50%;
+   padding-top:5%;
+   font-size:2em;
+}
+
+.Aprobados:hover, .Reprobados:hover, .Media:hover {
+   width:73%;
+   font-size: 1.1em;
+   transition:0.1s;
+   cursor:pointer;
+   -webkit-box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.08);
+-moz-box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.08);
+box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.08);
+}
+
+.Media{
+   background-color:#6AA9CC;
+   width: 70%;
+}
+
+.Reprobados{
+   background-color:#CE6171;
+   width:70%;
+}
+
+.Aprobados{
+   background-color: #C9E26C;
+   width: 70%;
+}
+
+.tittxt{
+   padding-top:20px;
+   font-family: 'Asap', sans-serif;
+   font-size: 1.5em;
+   font-weight: bolder;
+   }
+
+.numtxt{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.5em;
+   font-weight: lighter;
+   padding-top:25px;
+}
+
+.txt{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.2em;
+}
+.CursoTitle{
+   font-family: 'Asap', sans-serif;
+   font-size: 2em;  
+}
+.nomtxt{
+   font-family: 'Asap', sans-serif;
+   font-size: 1.8em;
+}
+.Resnum{
+   font-family: 'Asap', sans-serif;
+   
+}
